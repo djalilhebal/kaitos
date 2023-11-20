@@ -1,24 +1,80 @@
 .kai-audioquote {
-    border-radius: 5px;
-    padding: 0 5px 0 5px;
+    font-style: italic;
     cursor: pointer;
+    
+    border-radius: 0.25em;
+    padding-right: 0.25em;
 
     --color: gray;
     --percentage: 0%;
     /*
     --color-components: 0, 0, 0;
-    background-image: linear-gradient(to right, rgba(var(--color-components), 0.2) 50%, rgba(var(--color-components), 0.1) 50%);
+    background-image: linear-gradient(to right, rgba(var(--color-components), 0.2) 50%, rgba(var(--color-components), 0.05) 50%);
     */
     background-image:
         linear-gradient(to right, var(--color) 50%, var(--color) 50%),
-        linear-gradient(to right, rgba(0,0,0, 0.3) 50%, rgba(0,0,0, 0.1) 50%)
+        linear-gradient(to right, rgba(0,0,0, 0.2) 50%, rgba(0,0,0, 0.05) 50%)
         ;
     background-blend-mode: hard-light;
     background-size: 200%;
     background-position: calc(200% + calc(100% - var(--percentage, 0%)));
-    transition: background-position 0.2s;
+    transition: background-position linear 0.3s;    
 }
 
+q.kai-audioquote::before, q.kai-audioquote::after {
+    content: none;
+}
+
+/**
+ * Why did I add this again? Isn't cursor:pointer enough?
+ */
 .kai-audioquote:hover:not(:focus) {
     outline: solid;
+}
+
+/**
+ * @implNote
+ * - CSS pseudo-classes like :paused, :playing, :buffering, etc.
+ * are not supported by modern browsers except Safari.
+ *
+ * @see https://developer.mozilla.org/en-US/docs/Web/CSS/:paused
+ */
+.kai-audioquote .icon::before {
+    content: '⏵';
+    content: '⏸';
+    content: '⏯';
+}
+/**
+ * Was hoping to do something like this:
+ */
+.kai-audioquote audio:paused + .icon::before {
+    content: '⏵';
+}
+
+.kai-audioquote .icon::before {
+    /* Useless? */
+    font-size: 1em;
+
+    border-radius: .25em;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    margin-right: 0.1em;
+}
+
+.kai-audioquote .icon::before {
+    color: rgb(255 255 255 / 75%);
+    color: transparent;
+
+    /* play pause icon https://iconduck.com/icons/310053/media-playback-play-pause */
+    background-image: url("data:image/svg+xml,%0A%3Csvg viewBox='0 0 22 22' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m2 4v14l8-7m2 7h3v-14h-3m5 0v14h3v-14' fill='%234d4d4d'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: 80%;
+    background-size: contain;
+
+    background-blend-mode: luminosity;
+    background-blend-mode: multiply;
+    background-blend-mode: difference;
 }

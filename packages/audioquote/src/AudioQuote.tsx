@@ -86,6 +86,7 @@ export default function AudioQuote({ cite, audioSrc, color, children }: AudioQuo
     return (
         <q ref={quoteRef} style={style} className={COMPONENT} cite={cite} tabIndex={0}
             onClick={onClick} onKeyDown={(e) => e.key === 'Enter' && onClick()}>
+            <i className="icon"></i>
             {children}
             <audio ref={audioRef} src={audioSrc} onTimeUpdate={onTimeupdate}></audio>
         </q>

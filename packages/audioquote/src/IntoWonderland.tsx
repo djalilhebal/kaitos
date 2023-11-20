@@ -6,15 +6,15 @@ export function IntoWonderland() {
         <article id="intoWonderland">
             <h2>Wonderland</h2>
             <p>
-                This is my collection of notes, my digital guarden, second brain, or as I like to call it <strong>Wonderland</strong>,
-                as in 
+                This is my collection of notes, second brain, digital guarden, or as I like to call it <strong>Wonderland</strong>,
+                you know, as in 
                 <AudioQuote
                     color="blueviolet"
                     audioSrc="./wonderland-is-destroyed.mp3"
                     cite="https://store.steampowered.com/app/19680/Alice_Madness_Returns/"
                     >
                     Wonderland is destroyed! My mind is in ruins!
-                </AudioQuote>.
+                </AudioQuote>
             </p>
 
             <p>

@@ -1,14 +1,19 @@
 {
   "name": "@kaitos/audioquote",
   "version": "0.0.1",
-  "exports": "./src/AudioQuote.tsx",
+  "homepage": "https://github.com/djalilhebal/kaitos",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/audioquote.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "kai:build": "tsc --build --dry"
+    
+    "kai:demo": "vite build --config vite.config.demo.ts"
   },
   "peerDependencies": {
     "react": "^18.2.0",
