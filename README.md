@@ -6,8 +6,6 @@
 
 - Note to self: #blunderland and #wonderland both refer to this thing.
 
-- "The cat was nothing if not abrupt"
-
 </details>
 
 
@@ -21,7 +19,7 @@ You know the deal, as a dev, you should name your project after a mythical chara
 **Kerberos** (MIT Kerberos),
 etc.
 
-I picked **Kaitos**, as in Cetus the sea monster from Greek mythology. \
+I decided on **Kaitos**, as in Cetus the sea monster from Greek mythology. \
 Get it? Cetus, Zeta Ceti, Baten Kaitos (the star or constellation or whatever), and ultimately referencing [the game of the same name][baten-kaitos-imdb] (its main character is a cool blue-haired guy, GET IT?!).
 
 <details>
@@ -66,9 +64,13 @@ Still, you should use visual metaphors.
 
 ## Components
 
-- [x] AudioQuote
+- [AudioQuote](./packages/audioquote/)
 
 - [ ] VideoQuote
+
+- [ ] TextDivider `<hr />`
+
+- [ ] EndMarker `<end />`
 
 - [ ] ...
 
@@ -76,14 +78,15 @@ Still, you should use visual metaphors.
 ## Files
 
 Common files:
-* `README.md`
-* `Ramblings.md`, like `README` but contains (more) random and incomplete thoughts.
 
-* `TODO.md`
-* `TODREAM.me`? Like `TODO` except we won't do them. Just keep dreaming, you know.
+- `README.md`
+- `Ramblings.md`: Like `README` but contains (more) random and incomplete thoughts.
 
-* `src/`
-* `scrap/` (AKA `junk/`) like `src/` but contains random and incomplete code snippets.
+- `TODO.md`
+- `TODREAM.md`: Like `TODO` except we won't do them. Just keep dreaming, you know.
+
+- `src/`
+- `scrap/` (AKA `junk/`): Like `src/` but contains random and incomplete snippets and pseudocode.
 
 ---
 

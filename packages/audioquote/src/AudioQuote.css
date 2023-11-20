@@ -1,0 +1,24 @@
+.kai-audioquote {
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    cursor: pointer;
+
+    --color: gray;
+    --percentage: 0%;
+    /*
+    --color-components: 0, 0, 0;
+    background-image: linear-gradient(to right, rgba(var(--color-components), 0.2) 50%, rgba(var(--color-components), 0.1) 50%);
+    */
+    background-image:
+        linear-gradient(to right, var(--color) 50%, var(--color) 50%),
+        linear-gradient(to right, rgba(0,0,0, 0.3) 50%, rgba(0,0,0, 0.1) 50%)
+        ;
+    background-blend-mode: hard-light;
+    background-size: 200%;
+    background-position: calc(200% + calc(100% - var(--percentage, 0%)));
+    transition: background-position 0.2s;
+}
+
+.kai-audioquote:hover:not(:focus) {
+    outline: solid;
+}
