@@ -1,11 +1,11 @@
 # K-Passage / K-Encore
 _#WebComponent #WebAnimationAPI #CSS_
 
-<p style="text-align: center; font-size: small;">
+<aside style="text-align: center; font-size: small;">
 
 "Can I get an encore? I know you want more." -- [Nicki Minaj - Encore '07][encore-lyrics]
 
-</p>
+</aside>
 
 A component that expands and reveals text in place.
 Think of it as a paragraph that shows hidden lines.
@@ -18,10 +18,10 @@ Inspired by interactive fiction (IF) stuff like Twine, Windrift, Ink/Inky, etc.
 - **Accessible** enough. \
 (See `TODO.md`.)
 
+- **Future-proof**: It's a web component and relies on no framework, so there won't be any breaking changes.
+
 - **Fail-proof**/Progressive-enhancement: In the worst-case scenario (the custom elements aren't loaded), you still see the entire revealed content.
 (`trigger` is hidden by default, `reveal` is shown by default).
-
-- **Future-proof**: Web Components ain't gonna break overnight, unlike frameworks.
 
 
 ## Usage
@@ -105,7 +105,9 @@ Content (to be revealed):
 ```
 
 
-## How it works
+## How it should work
+
+(Kinda outdated details)
 
 A `passage` is like a `p`aragraph.
 It should accept as children whatever `<p>` accepts.
@@ -127,15 +129,6 @@ It should accept as children whatever `<p>` accepts.
 }
 ```
 
-```html
-<article>
-    <h1>Story</h1>
-    <p>
-    <k-encore>You hear something.
-    <p>
-</article>
-```
-
 ```js
 heightAnim = animate height from the (approx) `revealedHeight`, fill forwards, duration 300ms.
 await heightAnim.finished;
@@ -152,7 +145,7 @@ heightAnim.cancel();
 
 ### Styling
 
-- [ ] Maybe use HTML `hidden`
+- [x] Use HTML `hidden`
 
 - [scrollHeight | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight)
     * `scrollHeight`: "the height of an element's content, including content not visible on the screen due to overflow."
@@ -162,7 +155,7 @@ heightAnim.cancel();
 - [offsetHeight | MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetHeight)
 
 
-## References
+## Further reading
 
 - [Collapsible Sections | Inclusive Components](https://inclusive-components.design/collapsible-sections/)
 

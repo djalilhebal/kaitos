@@ -14,6 +14,10 @@ article#demo {
   padding: 1em;
 }
 
+footer {
+  border: 2px solid;
+}
+
 /* --- */
 
 k-passage {
