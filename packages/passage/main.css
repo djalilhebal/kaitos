@@ -1,0 +1,31 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: #efefef;
+  /*line-height: 1.5;*/
+}
+
+article#demo {
+  max-width: 80ch;
+  margin: auto;
+  background: white;
+  padding: 1em;
+}
+
+/* --- */
+
+k-passage {
+  display: block;
+}
+
+k-passage-trigger {
+  display: inline;
+  cursor: pointer;
+  border-bottom: 2px dashed;
+}
+
+k-passage-reveal {
+  display: inline;
+}

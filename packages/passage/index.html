@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>K-Passage Demo</title>
+  </head>
+  <body>
+    <h1>K-Passage Demo</h1>
+
+    <p>
+      Interact with the "the Cat went on cheerfully" passage!
+    </p>
+
+    <article id="demo">
+      <h2> <a id="ALICE_IN_DOWNING_STREET"></a><i>ALICE IN DOWNING STREET</i></h2>
+
+      <p>“<span class="smcap">Have</span> you ever seen an Ineptitude?” asked the Cheshire Cat suddenly; the
+      Cat was nothing if not abrupt.</p>
+      <div class="figcenter" style="width: 213px;" role="figure" aria-labelledby="ebm_caption0">
+      <img alt="[Image unavailable.]" height="221" src="images/ill_pg_003_lg.jpg" width="213" id="id-6585939854942063565">
+      <div class="caption" id="ebm_caption0"><p>“CAN YOU TELL ME WHAT YOU ARE DOING HERE?” ALICE INQUIRED
+      POLITELY.</p></div>
+      </div>
+      <p>“Not in real life,” said Alice. “Have you any about here?<span class="pagenum"><a id="page_4">{4}</a></span>”</p>
+      <p>“A few,” answered the Cat comprehensively. “Over there, for instance,”
+      it added, contracting its pupils to the requisite focus, “is the most
+      perfect specimen we have.”</p>
+      <p>Alice followed the direction of its glance and noticed for the first
+      time a figure sitting in a very uncomfortable attitude on nothing in
+      particular. Alice had no time to wonder how it managed to do it, she was
+      busy taking in the appearance of the creature, which was something like
+      a badly-written note of interrogation and something like a guillemot,
+      and seemed to have been trying to preen its rather untidy plumage with
+      whitewash. “What a dreadful mess it’s in!” she remarked, after gazing at
+      it for a few moments in silence. “What is it, and why is it here?”</p>
+      <p>“It hasn’t any meaning,” said the Cat, “it simply <i>is</i>.”</p>
+      <p>“Can it talk?” asked Alice eagerly.</p>
+      <p>“It has never done anything else,” chuckled the Cat.</p>
+      <p>“Can you tell me what you are doing here?” Alice inquired politely. The
+      Ineptitude shook its head with a deprecatory motion and commenced to
+      drawl, “I haven’t an idea.<span class="pagenum"><a id="page_5">{5}</a></span>”</p>
+      <p>“It never has, you know,” interrupted the Cheshire Cat rudely, “but in
+      its leisure moments” (Alice thought it must have a good many of them)
+      “when it isn’t playing with a gutta-percha ball it unravels the
+      groundwork of what people believe—or don’t believe, I forget which.”</p>
+      <div class="figcenter" style="width: 193px;" role="figure" aria-labelledby="ebm_caption1">
+      <img alt="[Image unavailable.]" height="242" src="images/ill_pg_005_lg.jpg" width="193" id="id-8324904860450275803">
+      <div class="caption" id="ebm_caption1"><p>THE QUEEN.</p>
+      <p>with apologies to Sir John Tenniel</p></div>
+      </div>
+      <p>“It really doesn’t matter which,” said the Ineptitude, with languid
+      interest.<span class="pagenum"><a id="page_6">{6}</a></span></p>
+
+      <!-- Testing keep = no -->
+      <k-passage>
+        “Of course it doesn’t,”
+        <k-passage-trigger hidden>the Cat went on cheerfully.</k-passage-trigger>
+        <k-passage-reveal>the Cat went on cheerfully, “because the
+        unravelling got so tangled that no one could follow it. Its theory is,”
+        he continued, seeing that Alice was waiting for more, “that you mustn’t
+        interfere with the Inevitable. Slide and let slide, you know.”</k-passage-reveal>
+      </k-passage>
+
+      <!-- TODO: Testing keep = yes -->
+      <k-passage>
+        <k-passage-trigger hidden>“But what do you keep it here for?”</k-passage-trigger>
+        <span class="meaningless-wrapper-to-test-none-direct-parent">
+          <k-passage-reveal>
+            “But what do you keep it here for?” asked Alice.
+            <p>“Oh, somehow you can’t help it; it’s so perfectly harmless and amiable
+              and says the nastiest things in the nicest manner, and the King just
+              couldn’t do without it. The King is only made of pasteboard, you know,
+              with sharp edges; and the Queen”—here the Cat sank its voice to a
+              whisper—“the Queen comes from another pack, made of Brummagem ware,
+              without polish, but absolutely indestructible; always pushing, you know;
+              but you can’t push an Ineptitude. Might as well try to hustle a
+              glacier.”</p>
+              <p>“That’s why you keep so many of them about,” said Alice.</p>
+              <p>“Of course. But its temper is not what it used to be. Lots of things
+              have happened to worry it.”</p>
+              <p>“What sort of things?”</p>
+              <p>“Oh, people have been dying off in round numbers, in the most
+              ostentatious manner, and<span class="pagenum"><a id="page_7">{7}</a></span> the Ineptitude dislikes fuss—but hush, here’s
+              the King coming.”</p>
+          </k-passage-reveal>
+        </span>
+      </k-passage>
+
+
+      <p style="margin: 1em; text-align: center;">
+        [...]
+      </p>
+    </article>
+
+    <footer>
+      <ul>
+        <li>
+          Text is taken from
+          <a href="https://www.gutenberg.org/cache/epub/58201/pg58201-images.html" target="_blank">
+            The Westminster Alice by Hector H. Munro ("Saki") | The Project Gutenberg
+          </a>
+        </li>
+        <li>
+          About the project:
+          <code>K-Passage</code> - 
+          <a href="https://github.com/djalilhebal/kaitos" target="_blank">
+            <b>Kaitos</b> on GitHub.
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+  <div id="app"></div>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="passage-element.js"></script>
+  </body>
+</html>

@@ -43,7 +43,7 @@ npm namespaces (users or orgs):
 - [ ] kaitos, but GitHub user exists.
 - ~~kaizen~~ https://github.com/cultureamp/kaizen-design-system
 
-- ~~trainwreck~~ as in "trainwreck of thought".
+- ~~trainwreck~~ as in "train(wreck) of thoughts".
 
 </details>
 
@@ -53,9 +53,9 @@ npm namespaces (users or orgs):
 
 ## Principals
 
-The principal is simple: The user is frustrated and short-tempered, so get straight to the point. \
+The main thing is: The user is frustrated and short-tempered, so get straight to the point. \
 Automated whatever is automatable. \
-Set sensible defaults when it makes sense. \
+Set sensible defaults when it makes sense.
 
 Keep it simple and plain (flat?).
 
@@ -65,6 +65,8 @@ Still, you should use visual metaphors.
 ## Components
 
 - [AudioQuote](./packages/audioquote/)
+
+- [Passage](./packages/passage/): `k-passage` custom element.
 
 - [ ] VideoQuote
 
