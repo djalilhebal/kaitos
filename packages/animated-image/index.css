@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    margin: 10px;
+    background-color: #efefef;
+}
+
+section {
+    max-width: 70ch;
+    padding: 0.5em;
+    margin: 1em auto;
+    background: white;
+}
+
+h2 {
+    border-bottom: 0.2em dashed;
+    color: firebrick;
+    font-size: 2rem;
+}
+
+p {
+    max-width: 70ch;
+    margin: 0 auto;
+    padding: 0.5em;
+    font-size: 1.25rem;
+}
+
+k-animated-image {
+    margin: 0 auto;
+    width: 720px;
+    max-width: 100%;
+}

@@ -66,9 +66,13 @@ Still, you should use visual metaphors.
 
 - [AudioQuote](./packages/audioquote/)
 
-- [Passage](./packages/passage/): `k-passage` custom element.
-
 - [ ] VideoQuote
+
+- [Passage](./packages/passage/): `k-passage` web component.
+
+- [Animated Image](./packages/animated-image/): `k-animated-image` web component.
+
+- [ ] Train of thought
 
 - [ ] TextDivider `<hr />`
 
