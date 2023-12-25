@@ -80,20 +80,6 @@ Still, you should use visual metaphors.
 
 - [ ] ...
 
-
-## Files
-
-Common files:
-
-- `README.md`
-- `Ramblings.md`: Like `README` but contains (more) random and incomplete thoughts.
-
-- `TODO.md`
-- `TODREAM.md`: Like `TODO` except we won't do them. Just keep dreaming, you know.
-
-- `src/`
-- `scrap/` (AKA `junk/`): Like `src/` but contains random and incomplete snippets and pseudocode.
-
 ---
 
 END.
