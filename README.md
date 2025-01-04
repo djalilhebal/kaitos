@@ -65,12 +65,18 @@ Still, you should use visual metaphors.
 ## Components
 
 - [AudioQuote](./packages/audioquote/)
+    * Demo: https://kaitos-audioquote.vercel.app/
 
 - [ ] VideoQuote
 
 - [Passage](./packages/passage/): `k-passage` web component.
+    * Demo: https://kaitos-passage.vercel.app/
 
 - [Animated Image](./packages/animated-image/): `k-animated-image` web component.
+    * Demo: https://kaitos-animated-image.vercel.app/
+
+- [Scroll to top](./packages/scroll-to-top/)
+    * Demo: https://kaitos-scroll-to-top.vercel.app/
 
 - [ ] Train of thought
 
