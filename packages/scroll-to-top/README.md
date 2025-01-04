@@ -1,8 +1,14 @@
 # K-Scroll-To-Top
 
+_#WebComponent_
+
 Scroll to top button. `<k-scroll-to-top />`
 
 Demo: The Principles of Newspeak.
+
+<p align="center">
+    <img src="DALLE-2024-04-18-jackal-1--resized--svgomg-defaults.svg" width="150" alt="Howling jackal" />
+</p>
 
 
 ## Tools used
