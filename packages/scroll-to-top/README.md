@@ -2,7 +2,7 @@
 
 Scroll to top button. `<k-scroll-to-top />`
 
-Demo: The Principles of Newspeak
+Demo: The Principles of Newspeak.
 
 
 ## Tools used
@@ -13,22 +13,24 @@ Demo: The Principles of Newspeak
 
 - Inkscape: Trace the bitmap to vector SVG.
 
-- SVGOMG: Optimize the SVG.
-https://jakearchibald.github.io/svgomg/
+- [SVGOMG](https://jakearchibald.github.io/svgomg/): Optimize the SVG.
+
+
+## Background
+
+Inspired by Sara Soueidan's design, except it's a howling jackal/wolf.
+![SaraSoueidan's blog](2024-03-05--sarasoueidan.com__blog.png)
 
 
 ## Links
 
 - Inspiration:
-Sara Soueidan's Blog
-https://www.sarasoueidan.com/blog/
+[Sara Soueidan's Blog](https://www.sarasoueidan.com/blog/)
 
 - [Back-to-Top Button Design Guidelines | NNGroup](https://www.nngroup.com/articles/back-to-top/)
 
 - Demo text:
-APPENDIX. The Principles of Newspeak
-Nineteen eighty-four - George Orwell
-https://gutenberg.net.au/ebooks01/0100021h.html#ch24
+[APPENDIX. The Principles of Newspeak from _Nineteen eighty-four_ by George Orwell](https://gutenberg.net.au/ebooks01/0100021h.html#ch24)
 
 ---
 

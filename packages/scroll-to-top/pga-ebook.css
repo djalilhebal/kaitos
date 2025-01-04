@@ -1,0 +1,60 @@
+﻿
+body {background: #EFE9C5; margin: 1% 15% 10% 15%; text-align:justify;}
+hr {width: 25%;text-align:center; margin-left: auto; margin-right: auto;}
+hr.short {width: 5%;text-align:center;color: black;height: 2px;}
+hr.longer {width: 15%;text-align:center;color: black;height: 2px;}
+p {font-family: Georgia; font-size:1.35em;}
+p.note {margin-left:1cm; font-size: 1.1em;}
+p.contents {margin-left:7cm; font-size: 100%;}
+p.blankabove { margin-top: 1.5em; }
+p.ref {font-size: 70%}
+h1,h2,h3,h4,h5,h6 {color:green; text-align:center;}
+pre {font-size: 1.2em;}
+.super {vertical-align: super; color:#660000;}
+.sub {vertical-align: sub; color:#660000;}
+blockquote {font-family: Georgia; font-size: 1.25em;}
+ul, ol {font-size: 1.2em;}
+.ol2 {list-style-type: upper-roman;  margin-left:2.5cm;}
+table {border: thin solid silver;}
+tr, td {border-top: thin solid silver; border-left:thin solid silver;}
+p.newspaper, .blurb, .quote, .note, .journal, .intro
+{font-size: 1.2em; margin-left: 3%; margin-right: 3%}
+p.newspaper2{font-size: 1.25em; margin-left: 3%; margin-right: 3%;}
+.poem, .verse {font-style: italic; margin-left: 10%}
+.smcap, .telegram {font-variant: small-caps}
+.cp {text-align:center}
+.headline, .sign, .label
+{font-variant: small-caps; font-size: 1.2em; text-align:center}
+.letter {font-style: italic; margin-left: 3%; margin-right: 3%;}
+.toc1 {margin-left:42%; font-size: 1.2em;}
+.toc2 {margin-left:36%; font-size: 1.2em; list-style-type:upper-roman}
+.caption {font-size: 1.2em; font-style: italic; font-weight: bold; text-align:center;}
+.footnote {margin-left:10%; font-size: 1.1em;}
+.footnote1 {margin-left:10%; font-size: 1.1em; color:#cc0000;}
+.pin {font-style: italic; margin-left: 30%}
+.pin10 {font-style: italic; margin-left: 10%}
+.pin20 {font-style: italic; margin-left: 20%}
+.pin30 {font-style: italic; margin-left: 30%}
+.pin40 {font-style: italic; margin-left: 40%}
+.pin50 {font-style: italic; margin-left: 50%}
+.cpi {text-align:center; font-style: italic;}
+.cpb {text-align:center; font-weight: bold;}
+.lhd {text-align:center;}
+.lhdi {text-align:center; font-style: italic;}
+.telegram, .typewriter {
+color:#3c0000;
+font-family: "Courier New", monospace;
+font-size: 1.3em;
+font-weight: bolder;
+margin-left:5%;
+margin-right:5%;
+text-align:left;
+text-indent:0;}
+.first {text-indent: 0;}
+.date-jnl {color:#a0522d; text-align:left; font-size: 1.4em;}
+p.a {visibility: visible;}
+p.b {visibility: hidden;}
+.author {color:green; text-align:center; font-size: 1.25em}
+.chaphead {text-align:justify; font-size:1.1em}
+em {font-weight:bold}
+.index {text-indent:0; margin-left:30%; font-size: 0.8em;
