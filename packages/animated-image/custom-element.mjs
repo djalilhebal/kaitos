@@ -1,4 +1,11 @@
-class AnimatedImage extends HTMLElement {
+class KAnimatedImage extends HTMLElement {
+
+  // NOTE: As defined by GitHub's `clipboard-copy-element`
+  // https://github.com/github/clipboard-copy-element/blob/a4a20027ac86f75a8a81d4419f484c165f184935/src/clipboard-copy-element.ts#L65
+  static define(name = 'k-animated-image', registry = customElements) {
+    registry.define(name, this);
+    return this;
+  }
 
   static get observedAttributes() {
     return ['src', 'caption'];
@@ -69,6 +76,4 @@ class AnimatedImage extends HTMLElement {
 
 }
 
-// XXX: Maybe move it to the component class like:
-//      `static define(name = 'k-animated-image', registry = customElements) { ... }`
-customElements.define('k-animated-image', AnimatedImage);
+KAnimatedImage.define();
