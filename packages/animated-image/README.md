@@ -61,7 +61,10 @@ Now, I need it for something more important.
 I tried to clip "Robin breaking vase" and convert it to a gif, but the output was almost 20mb.
 Even after optimizing it, it was still huge (9mb)!
 
-I decided to use mp4 like Telegram, with one extra feature: A-B loop.  
+Inspired by approach that Twitter, Telegram, and Discord use: Use mp4 instead of gif.
+![Twitter using video HTML element to represent a gif](./junk/twitter-gif--2023-12-24.png)
+
+I decided to use mp4 with one extra feature: A-B loop.  
 Robin should analyze the vase like normal, break it, then start "weeping" (this is our A-B loop).
 
 
@@ -84,6 +87,9 @@ Probably not.
 
 
 ## Related
+
+- [Autoplay policy in Chrome | Blog | Chrome for Developers](https://developer.chrome.com/blog/autoplay)
+    * Visited: 2023-12-24
 
 - VLC supports _A-B repeat_.
 

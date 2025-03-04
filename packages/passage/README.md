@@ -47,7 +47,9 @@ and . . .
     <k-passage-reveal>As you open the book, words unfold like magic. It fills you with determination.<k-passage-reveal>
 </k-passage>
 
-<p>Fin.</p>
+<p>
+    Fin.
+</p>
 ```
 
 ### Dev
@@ -57,11 +59,6 @@ Running the demo locally:
 npm install
 npm run dev
 ```
-
-### Gotchas
-
-- ~~Content might have changed or shifted due to loading resources (fonts) or external (out of our control) CSS like pseudoselectors.~~
-Meaning, the final height transition might be a bit "abrupt".
 
 
 ## Name
@@ -135,6 +132,12 @@ await heightAnim.finished;
 await fadeInAnim.finished;
 heightAnim.cancel();
 ```
+
+
+### Gotchas
+
+- ~~Content might have changed or shifted due to loading resources (fonts) or external (out of our control) CSS like pseudoselectors.~~
+Meaning, the final height transition might be a bit "abrupt".
 
 
 ### Events
